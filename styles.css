@@ -1,0 +1,234 @@
+/* General Styles */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    color: #333;
+}
+
+
+/* Hero Section */
+.hero {
+    height: 100vh; /* Full viewport height */
+    display: flex; /* Center content */
+    flex-direction: column; /* Stack content vertically */
+    justify-content: center; /* Center vertically */
+    align-items: center; /* Center horizontally */
+    text-align: center; /* Center text */
+    background: url('./images/hero-bg.jpg') no-repeat center center/cover; /* Background image */
+    color: white; /* Text color */
+    padding: 0 20px; /* Horizontal padding */
+}
+
+.hero h1 {
+    font-size: 68px;
+}
+.hero h2{
+    font-size: 30px;
+}
+
+.hero p {
+    padding-top: 7%;
+    font-size: 12px;
+    color: white;
+}
+
+
+.cta-buttons{
+    display: flex;  
+    justify-content: center; /* Center items horizontally */
+    align-items: center;     /* Center items vertically */
+    text-align: center;
+    gap: 100px;
+    padding-top: 5%;
+    
+}
+
+.cta-button-pri {
+    background-color: #05ad9a; /* Button color */
+    color: white; /* Button text color */
+    padding: 15px 30px; /* Button padding */
+    border: none; /* Remove border */
+    border-radius: 5px; /* Rounded corners */
+    text-decoration: none; /* Remove underline */
+    transition: background-color 0.3s; /* Smooth transition for hover effect */
+    font-weight: 500;
+    
+}
+
+.cta-button-pri:hover {
+    background-color: #005f4f; /* Darker shade on hover */
+}
+
+.cta-button-sec {
+    background-color: #2f2f2f; /* Button color */
+    color: white; /* Button text color */
+    padding: 15px 30px; /* Button padding */
+    border: none; /* Remove border */
+    border-radius: 5px; /* Rounded corners */
+    text-decoration: none; /* Remove underline */
+    transition: background-color 0.3s; 
+    font-weight: 500;/* Smooth transition for hover effect */
+}
+.cta-button-sec:hover {
+    background-color: #a9b0af;
+    color: black; /* Darker shade on hover */
+}
+
+/* Why Choose ChatGPT Section */
+#why-choose {
+    height: 100vh; /* Set the height to 100% of the viewport */
+    display: flex; /* Use flexbox to center content */
+    flex-direction: column; /* Align items in a column */
+    justify-content: center; /* Center items vertically */
+    align-items: center; /* Center items horizontally */
+    text-align: center; /* Center text */
+    padding: 20px; /* Optional padding */
+    background-color: #f9f9f9; /* Optional background color */
+}
+.why-choose {
+    padding: 60px 20px; /* Padding for section */
+    background-color: #f9f9f9; /* Light background color */
+    text-align: center; /* Center text */
+}
+
+.features {
+    display: flex; /* Flexbox layout */
+    flex-wrap: wrap; /* Allow items to wrap */
+    justify-content: center; /* Center features */
+}
+
+.feature {
+    flex: 1 1 250px; /* Flexible items */
+    margin: 20px; /* Margin around each feature */
+    padding: 20px; /* Padding for feature box */
+    background-color: white; /* White background for features */
+    border-radius: 8px; /* Rounded corners */
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); /* Subtle shadow */
+}
+
+.feature h3 {
+    margin-top: 15px; /* Margin above heading */
+}
+
+
+
+
+/* Testimonial Section */
+
+.testimonials {
+    text-align: center;
+    padding: 30px 20px;
+    background-color: #f9f9f9;
+}
+
+.testimonial-slider {
+    position: relative;
+    max-width: 600px;
+    margin: 0 auto;
+    overflow: hidden; /* Hide overflow to create sliding effect */
+}
+
+.testimonial {
+    display: none; /* Hide all testimonials by default */
+    padding: 20px;
+    font-style: italic;
+}
+
+.testimonial.active {
+    display: block; /* Show the active testimonial */
+}
+
+.testimonial-navigation {
+    margin-top: 20px;
+}
+
+.testimonial-navigation button {
+    background-color: #00796b;
+    color: white;
+    border: none;
+    padding: 10px 15px;
+    cursor: pointer;
+    border-radius: 5px;
+    transition: background-color 0.3s;
+}
+
+.testimonial-navigation button:hover {
+    background-color: #005f4f; /* Darker shade on hover */
+}
+
+
+/* Benefits Section */
+.benefits {
+    text-align: center;
+    padding: 50px 20px;
+}
+
+.benefit {
+    display: inline-block;
+    width: 200px;
+    padding: 20px;
+    background: #fff;
+    margin: 10px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+/* Social Media Section */
+.social-media {
+    text-align: center;
+    padding: 30px 20px;
+    background: url(./images/contact-us-bg.jpg) no-repeat center center/cover;
+    color: #fff;
+}
+
+.social-icons {
+    display: flex;
+    justify-content: center; /* Center the icons horizontally */
+    gap: 20px;              /* Space between icons */
+}
+
+.social-icons a {
+    text-decoration: none;   /* Remove underline from links */
+}
+
+.social-icons .fab {
+    font-size: 32px;         /* Size of the Font Awesome icons */
+    color: #ffffff;          /* Default color for icons */
+    padding: 10px;
+    background-color: #00796b; /* Background color for the icon */
+    border-radius: 50%;      /* Make icons circular */
+    transition: transform 0.3s ease; /* Smooth scaling effect */
+}
+
+.social-icons .fab:hover {
+    transform: scale(1.2);   /* Slight enlargement on hover */
+}
+
+/* Footer Section */
+footer {
+    background-color: #0d0d0d;  /* Dark background color for the footer */
+    color: #fff;             /* White text color */
+    text-align: center;      /* Center the text */
+    padding: 15px 0;        /* Vertical padding */
+    position: relative;      /* Positioning for sticky footer */
+    bottom: 0;               /* Align at the bottom */
+    width: 100%;             /* Full width */
+    font-size: 14px;         /* Font size */
+    box-shadow: 0 -1px 5px rgba(0, 0, 0, 0.3); /* Subtle shadow for depth */
+}
+
+/* Responsive Styles */
+@media (max-width: 600px) {
+    .hero h1 {
+        font-size: 2em; /* Adjust heading size on small screens */
+    }
+    
+    .feature {
+        flex: 1 1 100%; /* Full width on small screens */
+    }
+
+    footer {
+        font-size: 12px; /* Smaller font size on small screens */
+    }
+}
