@@ -1,9 +1,12 @@
 # ChatGPT Landing Page
 
 Welcome to the ChatGPT Landing Page project! This is a simple and responsive landing page designed to showcase ChatGPT, your AI writing assistant.
-## Screenshot
+## Screenshots
 
-![Screenshot of ChatGPT Landing Page](screenshot.png)
+![s](https://github.com/user-attachments/assets/b1ee024d-bb3b-430e-a457-442221055454)
+![s1](https://github.com/user-attachments/assets/22f0b691-2a5b-4bf4-b47e-f39d9560e300)
+![s2](https://github.com/user-attachments/assets/0c3453db-3b62-4248-9a75-42f3a0b02df8)
+
 ## Table of Contents
 
 - [Features](#features)
