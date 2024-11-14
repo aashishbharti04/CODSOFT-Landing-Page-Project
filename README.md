@@ -39,4 +39,4 @@ To get started with this project, follow these steps:
 
 1. Clone the repository:
    ```bash
-   git clone https://github.com/yourusername/chatgpt-landing-page.git
+   git clone https://github.com/aashishbharti04/chatgpt-landing-page.git
